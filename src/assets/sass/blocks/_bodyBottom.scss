@@ -1,0 +1,75 @@
+.bodyBottom{
+    overflow: hidden;
+    margin-top: 200px;
+    .container{
+
+        .menu{
+            .box{
+
+                .title{
+                    font-family: 'p-mi';
+                    font-size: 48px;
+                }
+    
+                p{
+                    font-family: 'p-b';
+                    font-size: 18px;
+                    color: $grey;
+                    margin-top: 29px;
+                }
+
+            }
+
+            .btn{
+                margin-top: 10px;
+                display: flex;
+
+                button{
+                    background-color: $btn1;
+                    width: 216px;
+                    height: 56px;
+                    color: $white;
+                    border: 0;
+                    border-radius: 30px;
+                    display: block;
+                    margin-right: 10px;
+                    margin-top: 20px;
+                    &:hover{
+                        background-color: $btnhover;
+                    }
+                }
+                
+            }
+
+            .btn2{
+                margin-top: 10px;
+
+                button{
+                    background-color: $btn1;
+                    width: 296px;
+                    height: 56px;
+                    color: $white;
+                    border: 0;
+                    border-radius: 30px;
+                    display: none;
+                    margin-right: 10px;
+                    margin-top: 20px;
+                    &:hover{
+                        background-color: $btnhover;
+                    }
+                }
+                
+            }
+            .img{
+                img{
+                    display: block;
+                }
+            }
+            .img2{
+                img{
+                    display: none;
+                }
+            }
+        }
+    }
+}

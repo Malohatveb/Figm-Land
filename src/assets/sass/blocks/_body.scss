@@ -1,0 +1,74 @@
+.body{
+    .container{
+        .menu{
+
+            .box{
+
+                margin-top: 119px;
+                margin-left: 80px;
+                .title{
+                    font-family: 'p-mi';
+                    font-size: 36px;
+                    color: #000;
+
+                }
+
+                p{
+                    font-family: 'p-b';
+                    font-size: 16px;
+                    color: #000;
+                    margin-top: 37px;
+                }
+
+                .img{
+                    img{
+                        display: block;
+                    }
+                }
+
+                .btn{
+                    margin-top: 20px;
+                    button{
+                        width: 147px;
+                        height: 52px;
+                        border: 0;
+                        border-radius: 30px;
+                        background-color: $aqua;
+                        color: $white;
+                        box-shadow: 0px 4px 31px rgba(0, 0, 0, 0.15);
+                        display: block;
+
+                        &:hover{
+                            background-color: $btnhover;
+                        }
+                    }
+                }
+            }
+
+            .img2{
+                img{
+                    display: none;
+                }
+            }
+
+            .btn2{
+                margin-top: 20px;
+                button{
+                    width: 147px;
+                    height: 52px;
+                    border: 0;
+                    border-radius: 30px;
+                    background-color: $aqua;
+                    color: $white;
+                    box-shadow: 0px 4px 31px rgba(0, 0, 0, 0.15);
+                    display: none;
+
+
+                    &:hover{
+                        background-color: $btnhover;
+                    }
+                }
+            }
+        }
+    }
+}

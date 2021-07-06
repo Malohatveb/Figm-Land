@@ -1,0 +1,120 @@
+.head{
+    background: linear-gradient(230.95deg, #CB1AE8 -0.37%, #37BDA6 100%);
+    overflow: hidden;
+    .container{
+        .headMenu{
+            display: flex;
+
+            .left2{
+                img{
+                    display: none;
+                }
+            }
+            .left{
+                img{
+                    display: block;
+                }
+            }
+            .burger{
+                button{
+                    background-color: unset;
+                    border: 0;
+                    display: none;
+                    &:focus{
+                        outline: 0;
+                    }
+                }
+            }
+
+            .burgermenu{
+                display:block;
+                &.active{
+                    display: block;
+                }
+
+                .center{
+                    ul{
+                        // display: flex;
+                        margin: 20px 80px;
+    
+                        li{
+                            list-style-type: none;
+    
+                            a{
+                                text-decoration: none;
+                                color: $white;
+                                font-family: 'p-r';
+                                font-size: 15px;
+                                padding-left: 30px;
+                            }
+                        }
+    
+                    }
+    
+                }
+            }
+
+            .right{
+                margin-left: 144px;
+                button{
+                    width: 154px;
+                    height: 74px;
+                    background: linear-gradient(230.95deg, #CB1AE8 -0.37%, #37BDA6 100%);
+                    border-color: $white;
+                    border-radius: 38px;
+                    color: $white;
+                    margin-top: 10px;
+                }
+            }
+            
+        }
+        
+        .top{
+            text-align: center;
+            margin-top: 128px;
+            h1{
+                font-family: 'p-b';
+                font-size: 55px;
+                color: $white;
+            }
+
+            h2{
+                margin-top: 17px;
+                font-family: 'p-b';
+                font-size: 16px;
+                color: $white;
+            }
+    
+            .button{
+                margin-top: 69px;
+
+                button{
+                    width: 177px;
+                    height: 52px;
+                    border-radius: 39px;
+                    border-color: $white;
+                    background-color: unset;
+                    color: $white;
+                    margin-left: 20px;
+                    font-family: 'p-m';
+                    &:hover{
+                        color: #000;
+                        background-color: $white;
+                    }
+                }
+
+            }
+
+            .img{
+                img{
+                    display: block;
+                }
+            }
+            .img2{
+                img{
+                    display: none;
+                }
+            }
+        }
+    }
+}

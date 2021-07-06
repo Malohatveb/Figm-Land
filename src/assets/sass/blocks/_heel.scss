@@ -1,0 +1,49 @@
+.heel{
+    margin-bottom: 113px;
+    .container{
+
+        .center{
+            text-align: center;
+            margin-top: 60px;
+            .bigtitle{
+                font-family: 'p-mi';
+                font-size: 48px;
+                color: #000;
+                margin: 30px;
+            }
+
+            p{
+                font-family: 'p-r';
+                font-size: 18px;
+                color: $grey;
+            }
+
+            .bottom{
+                text-align: center;
+                margin-top: 50px;
+
+                input{
+                    width: 284px;
+                    height: 52px;
+                    border-radius: 6px;
+                    background: #EFEFEF;
+                    border: 1px solid #D0D0D0;
+                    text-align:center;
+                    
+                }
+
+                button{
+                    width: 182px;
+                    height: 52px;
+                    border: 0;
+                    border-radius: 39px;
+                    background: $aqua;
+                    color: $white;
+                    margin-left: 10px;
+                }
+            }
+        }
+
+    }
+
+}

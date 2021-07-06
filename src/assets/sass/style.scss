@@ -1,0 +1,61 @@
+@import 'grid';
+
+body , *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body{
+    overflow: hidden;
+}
+$white:#fff;
+$grey:#5C5C5C;
+$aqua:#03D6F3;
+$btn1:#03D6F3;
+$btnhover:#30D7BA;
+
+
+@font-face {
+    font-family: 'p-r';
+    src: url(../fonts/Poppins-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'p-m';
+    src: url(../fonts/Poppins-MediumItalic.ttf);
+}
+
+@font-face {
+    font-family: 'p-b';
+    src: url(../fonts/Poppins-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'p-mi';
+    src: url(../fonts/Poppins-Medium.ttf);
+}
+
+@font-face {
+    font-family: 'p-b';
+    src: url(../fonts/Poppins-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'r-b';
+    src: url(../fonts/Roboto-Regular.ttf);
+}
+
+
+$white:#fff;
+
+@import 'blocks/head';
+@import 'blocks/slider';
+@import 'blocks/advice';
+@import 'blocks/body';
+@import 'blocks/bodyBottom';
+@import 'blocks/about';
+@import 'blocks/heel';
+@import 'blocks/footer';
+
+@import 'blocks/media'

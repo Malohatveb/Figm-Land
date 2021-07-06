@@ -1,0 +1,49 @@
+.advice{
+    overflow: hidden;
+    .container{
+        
+        .center{
+            margin-top: 200px;
+
+            .box{
+                .title{
+                    font-family: 'p-mi';
+                    font-size: 48px;
+                }
+
+                p{
+                    font-family: 'p-b';
+                    font-size: 18px;
+                    color: $grey;
+                    margin-top: 29px;
+                }
+
+                .btn{
+                    margin-top: 10px;
+                    display: flex;
+
+                    button{
+                        background-color: $btn1;
+                        width: 216px;
+                        height: 56px;
+                        color: $white;
+                        border: 0;
+                        border-radius: 30px;
+                        margin-right: 10px;
+                        margin-top: 20px;
+                        &:hover{
+                            background-color: $btnhover;
+                        }
+                    }
+                    
+                }
+            }
+
+            .btn2{
+                button{
+                    display: none;
+                }
+            }
+        }
+    }
+}

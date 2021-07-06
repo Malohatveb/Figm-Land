@@ -1,0 +1,475 @@
+@media (max-width : 1024px){
+
+    .head{
+
+        .container{
+
+            .headMenu{
+
+                .right{
+                    button{
+                        margin-left: -90px;
+                    }
+                }
+
+                .img{
+                    img{
+                        left: 0;
+                    }
+                }
+            }
+
+            .top{
+
+                .img{
+                    img{
+                        display: none;
+                    }
+                }
+
+                .img2{
+                    margin-left: 255px;
+                    img{
+                        display: block;
+                    }
+                }
+            }
+
+        }
+    }
+
+    .advice{
+
+        .container{
+            .center{
+                img{
+                    margin-left: -57px;
+                }
+
+                .btn2{
+                    display: none;
+                }
+            }
+        }
+    }
+
+    .body{
+
+        .container{
+            .menu{
+                .img{
+                    img{
+                        margin-left: -57px;
+                    }
+                }
+
+                .img2{
+                    img{
+                        display: none;
+                    }
+                }
+            }
+
+        }
+    }
+
+    .bodyBottom{
+
+        .container{
+            .menu{
+
+                .img{
+                    img{
+                        display: none;
+                    }
+                }
+
+                .img2{
+                    img{
+                        display: block;
+                        margin-left: -30px;
+                    }
+                }
+            }
+        }
+    }
+
+    .footer{
+        .container{
+            .menu{
+                .right{
+                    margin-left: 50px;
+                }
+            }
+        }
+    }
+}
+@media (max-width : 768px){
+    .head{
+        .container{
+            .headMenu{
+                
+                .left2{
+                    img{
+                        display: block;
+                    }
+                }
+
+                .burger{
+                    margin: 20px;
+                    .top__btn__menu{
+                        span{
+                            display: block;
+                            height: 30px;
+                            width: 30px;
+                            border: 0;
+                            position: relative;
+                            position: absolute;
+                            right: 0;
+                            margin-right: 15px;
+                            z-index: 3;
+
+                            &:focus{
+                                outline: 0;
+                            }
+                            &.active{
+                                span{
+                                    transform: rotate(45deg);
+                                    &::before{
+                                        opacity: 0;
+                                    }
+                                    &::after{
+                                        transform: (85deg);
+                                        top: -8px;
+                                    }
+                                }
+                            }
+
+                            span{
+                                transition: 0.5s;
+                                height: 2px;
+                                width: 100%;
+                                display: inline-block;
+                                background: #000;
+
+
+                                &::after,
+                                &::before{
+                                    content: '';
+                                    transition: 0.5;
+                                    height: 2px;
+                                    width: 100%;
+                                    position: absolute;
+                                    top: 0;
+                                    left: 0;
+                                    right: 0;
+                                    display: inline-block;
+                                    background: #000;
+                                    margin-top: -8px;
+                                    &::after{
+                                        bottom: 0;
+                                        top: unset;
+                                    }
+                                }
+                            }
+                        }
+                    }
+
+                }
+
+                .burger{
+                    span &:active{
+                        content: '';
+                        .burgermenu{
+                            display: block;
+
+                            .center{
+
+                                ul{
+                                    li{
+                                        a{
+                                            margin: 50px;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                .burgermenu{
+                    display: none;
+                    position: fixed;
+                    height: 0;
+                    width: 100%;
+                    left: 0;
+                    background-color: pink;
+                    opacity: 0.9;
+                    z-index: 2;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    transition: 0.5s;
+                    top: 100px;
+                    margin-top: 0;
+                    margin-left: 0;
+                    &.active{
+                        margin-left: 0;
+                        height: 941px;
+                        top: 0;
+                    }
+                    
+                    .left{
+                        img{
+                            display: none;
+                        }
+                    }
+
+                }
+            }
+
+            .top{
+
+                .img{
+                    img{
+                        display: none;
+                    }
+                }
+
+                .img2{
+                    margin-left: 144px;
+                    img{
+                        display: block;
+                    }
+                }
+            }
+        }
+    }
+
+
+    .slider{
+        .container{
+            .top{
+                .bigtitle{
+                    .list{
+                        .list__item{
+                            margin-top: 40px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .advice{
+        .container{
+            .center{
+                text-align: center;
+
+                .box{
+
+                    .btn{
+                        button{
+                            display: none;
+                        }
+                        
+                    }
+                }
+
+                .btn2{
+                    display: flex;
+                    margin-left: 100px;
+
+                    button{
+                        background-color: $btn1;
+                        width: 216px;
+                        height: 56px;
+                        color: $white;
+                        border: 0;
+                        border-radius: 30px;
+                        margin: 50px 10px 50px;
+                        display: block;
+                        &:hover{
+                            background-color: $btnhover;
+                        }
+                    }
+                    
+                }
+                
+            }
+        }
+    }
+
+    .body{
+        .container{
+            .menu{
+
+                .img{
+                    img{
+                        display: none;
+                    }
+                }
+
+                .img2{
+                    img{
+                        display: block;
+                    }
+                }
+
+                .box{
+
+                    .btn{
+                        button{
+                            display: none;
+                        }
+                    }
+
+                }
+
+                .btn2{
+                    margin-top: 20px;
+                    margin-left: 250px;
+                    button{
+                        width: 147px;
+                        height: 52px;
+                        border: 0;
+                        border-radius: 30px;
+                        background-color: $aqua;
+                        color: $white;
+                        box-shadow: 0px 4px 31px rgba(0, 0, 0, 0.15);
+                        display: block;
+    
+    
+                        &:hover{
+                            background-color: $btnhover;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .bodyBottom{
+        .container{
+
+            .menu{
+                text-align: center;
+
+                .img2{
+                    img{
+                        margin-left: -2px;
+                    }
+                }
+
+                .btn{
+
+                    button{
+                        display: none;
+                    }
+                }
+
+                .btn2{
+                    button{
+                        display: block;
+
+                    }
+                }
+            }
+        }
+    }
+
+    .footer{
+        .container{
+            .menu{
+                .left{
+                    margin-left: 100px;
+                }
+
+                h4{
+                    margin-left: 100px;
+                }
+
+                .map{
+                    text-align: center;
+                }
+
+                .right{
+                    margin-left: 100px;
+                }
+            }
+        }
+    }
+
+}
+
+@media (max-width : 576px) {
+    .head{
+        .container{
+
+            .top{
+
+                .img2{
+                    img{
+                        margin-left: -90px;
+                    }
+                }
+
+            }
+
+        }
+    }
+
+    .advice{
+        .container{
+
+            .center{
+
+                .btn2{
+                    margin-left: unset;
+                }
+
+            }
+
+        }
+
+    }
+
+    .body{
+        .container{
+
+            .menu{
+
+                .img2{
+
+                    img{
+                        margin-left: -30px;
+                    }
+
+                }
+
+                .btn2{
+                    margin-left: 220px;
+                }
+            }
+        }
+    }
+
+    .bodyBottom{
+        .container{
+
+            .menu{
+
+                .img2{
+                    img{
+                        margin-left: 5px;
+                    }
+                }
+
+                .btn2{
+                    button{
+                        margin-left: 100px;
+                    }
+                }
+            }
+        }
+    }
+}

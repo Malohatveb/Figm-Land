@@ -1,0 +1,95 @@
+.about{
+    .container{
+
+        .bar{
+            margin-top: 101px;
+            .bigtitle__about{
+                text-align: center;
+
+                h1{
+                    font-family: 'p-mi';
+                    font-size: 46px;
+                    color: #000;
+                    margin: 30px;
+                }
+
+                h2{
+                    font-family: 'p-r';
+                    font-size: 18px;
+                    color: $grey;
+                }
+            }
+            .box{
+                border: 1px solid #DEDEDE;
+                border-radius: 10px;
+                text-align: center;
+                margin-top: 30px;
+
+                .bigtitle{
+                    font-family: 'p-b';
+                    font-size: 30px;
+                    color: #000;
+                    margin-top: 58px;
+
+                }
+
+                p{
+                    font-family: 'r-b';
+                    font-size: 12px;
+                    color: $grey;
+                }
+
+                img{
+                    margin: 30px;
+                }
+                .num{
+                    font-family: 'p-b';
+                    font-size: 30px;
+                    color: $aqua;
+
+                }
+
+                .num2{
+                    font-family: 'p-b';
+                    font-size: 18px;
+                    color: $grey;
+                }
+
+                ul{
+                    li{
+                        list-style-type: none;
+                        margin: 10px;
+                        
+                        a{
+                            text-decoration: none;
+                            font-family: 'p-r';
+                            font-size: 15px;
+                            color: #000;
+
+                            &:hover{
+                                color: $grey;
+                            }
+                        }
+                    }
+
+                }
+
+                button{
+                    border: 0;
+                    background: $aqua;
+                    color: $white;
+                    width: 217px;
+                    height: 52px;
+                    border-radius: 39px;
+                    margin: 40px;
+                }
+            } 
+            margin-bottom: 80px;  
+        }
+
+    }
+    border-bottom: 1px solid #CDCDCD;
+    width: 100%;
+    
+
+}
